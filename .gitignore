@@ -1,0 +1,72 @@
+# Microsoft Office temporary/lock files
+~$*
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter and IPython checkpoints/runtime files
+.ipynb_checkpoints/
+.ipython/
+
+# Virtual environments and local environment configuration
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Generated knowledge-base artifacts
+embeddings.npy
+faiss_index.index
+bm25_index.pkl
+bm25_tokenizer.pkl
+chunks_df.pkl
+emb_shards/
+KB_complete/
+
+# Downloaded models, Hugging Face caches, and framework caches
+.cache/
+cache/
+huggingface/
+hf_cache/
+models/
+checkpoints/
+wandb/
+
+# Local source documents and downloaded datasets
+data_sources/knowledge_base/pubmed_flat_files/
+data_sources/evaluation/
+PDF_Sources/
+data/
+datasets/
+MedQuAD/
+*.pdf
+*.parquet
+
+# Generated evaluation outputs and visualizations
+results_improved/
+Explanation_Evaluation/
+results/
+outputs/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.tsv
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,27 @@
+# Package set used by the Colab notebooks. Google Colab supplies Python, PyTorch,
+# and google-colab; the notebooks install this set at runtime when needed.
+pillow==11.1.0
+pdfplumber==0.11.4
+faiss-cpu
+sentence-transformers>=2.2.2
+rank-bm25
+beautifulsoup4
+lxml
+tqdm
+requests
+datasets
+transformers>=4.40.0
+accelerate>=0.28.0
+bitsandbytes>=0.43.0
+huggingface_hub>=0.20.3
+scikit-learn
+thefuzz
+python-Levenshtein
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+sacrebleu
+rouge-score
+bert-score
