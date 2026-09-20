@@ -2,6 +2,14 @@
 
 Google Colab notebooks for comparing medical multiple-choice QA with **No-RAG**, passage-based **RAG**, and example-based **RAC** (retrieved worked examples, optionally plus passages). A separate workflow scores generated explanations.
 
+
+## Authors
+
+- **Umeha Anjum** — NIT Warangal
+- **Jujjuri Sudeepa** — NIT Warangal
+- **Chanchal Suman** — NIT Warangal
+
+
 ## Layout
 
 ```text
